@@ -1,9 +1,7 @@
 var fs = require('fs');
 
 var upperCaseFile = function(file) {
-    fs.readFile(file, function(error, data){
-        return data;
-    });
+    var data = fs.readFileSync(file, 'utf-8');
     return data.toUpperCase();
 };
 
@@ -11,5 +9,5 @@ var upperCase = function(text) {
     return text.toUpperCase();
 };
 
-exports.upperCaseFile = upperCaseFile;
 exports.upperCase = upperCase;
+exports.upperCaseFile = upperCaseFile;
