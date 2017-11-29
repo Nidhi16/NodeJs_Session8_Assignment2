@@ -1,0 +1,24 @@
+{
+  "name": "nid-change-case-lower-upper",
+  "version": "1.0.0",
+  "description": "Changes lower case to upper case",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nidhi16/NodeJs_Session8_Assignment2.git"
+  },
+  "keywords": [
+    "nodejs",
+    "lowercase",
+    "uppercase"
+  ],
+  "author": "Nidhi Sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nidhi16/NodeJs_Session8_Assignment2/issues"
+  },
+  "homepage": "https://github.com/Nidhi16/NodeJs_Session8_Assignment2#readme"
+}
